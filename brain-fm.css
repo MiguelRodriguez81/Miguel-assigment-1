@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+    border-radius: 100px;
+    background-color: rgb(72, 0, 255);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 100px;
+    padding-top: 20%;
+}
+
+.bottom {
+    color: white;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+input[type='button'] {
+    padding: 15px 20px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 50px;
+}
+
+a:hover {
+    color: rgb(232, 234, 224);
+}
+a:visited {
+    color: white;
+}
