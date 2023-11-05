@@ -17,12 +17,24 @@ body {
     color: white;
     border: 100px;
     padding-top: 20%;
+    padding-left: 5%;
 }
 
-.bottom {
+.bottom-Left{
     color: white;
     flex-direction: column;
     padding-left: 10%;
+    padding-right: 10%;
+    float: left;
+
+}
+
+.bottom-Right{
+    color: white;
+    flex-direction: column;
+    padding-right: 10%;
+    float: right;
+
 }
 
 input[type='button'] {
